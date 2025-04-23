@@ -35,8 +35,6 @@ def check_capacity(max_capacity: int, raw_guests: list[dict[str, str]]) -> bool:
 
                 in_idx += 1
             else:
-                print(in_idx, out_idx)
-                print(in_dates, out_dates)
                 return False
     return True
 
